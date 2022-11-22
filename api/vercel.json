@@ -1,7 +1,7 @@
 {
     "version": 2,
     "name": "Idfrog",
-    "installCommand": "pnpm install",
+    "installCommand": "npm install",
     "builds": [{
         "src": "index.js",
         "use": "@vercel/node"
