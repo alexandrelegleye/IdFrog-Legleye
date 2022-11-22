@@ -4,7 +4,7 @@ const baseUrl = process.env.REACT_APP_BASEURL
 
 const axios = Axios.create({
   baseURL:  baseUrl,
-  timeout: 10000,
+  timeout: 20000,
   headers: {
     // 'CSRF-Token': csrfToken
   }
