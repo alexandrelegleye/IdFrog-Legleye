@@ -17,7 +17,6 @@
     "sequelize": "^6.25.3"
   },
   "scripts": {
-    "start": "node index.js",
-    "vercel-build": "node ./build.js"
+    "start": "node index.js"
   }
 }
