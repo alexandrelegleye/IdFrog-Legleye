@@ -255,7 +255,7 @@ function ProjectCollect({
             }}
           >
             <Button color="error" onClick={handleOpen}>
-              SUPRIMER LE PROJET
+              SUPPRIMER LE PROJET
             </Button>
             <Link to={`/profile/patchproject/${project_id}`}>
               <Button color="primary" >

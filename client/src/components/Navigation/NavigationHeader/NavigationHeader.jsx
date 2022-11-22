@@ -106,7 +106,7 @@ function ResponsiveAppBar() {
               {ProfileInfo.isLogged ? (
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Typography color="primary.dark">
-                    <Link to="profile">Mon Profile</Link>
+                    <Link to="profile">Mon Profil</Link>
                   </Typography>
                 </MenuItem>
               ) : (
