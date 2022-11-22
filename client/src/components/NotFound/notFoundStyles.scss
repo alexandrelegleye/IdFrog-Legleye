@@ -1,0 +1,11 @@
+@use '../../assets/styles/vars';
+
+.notfoundpage {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    &-logo {
+        max-width: 300px;
+        margin-bottom: 70px;
+    }
+}

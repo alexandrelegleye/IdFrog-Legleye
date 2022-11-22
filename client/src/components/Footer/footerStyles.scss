@@ -1,0 +1,15 @@
+@use '../../assets/styles/vars';
+
+.footer {
+  background-color: vars.$primary;
+  padding: 20px;
+}
+.lien {
+  font-size: 0.9rem;
+  color: vars.$secondary;
+}
+.lien:hover {
+  font-size: 0.9rem;
+  color: vars.$secondary;
+  text-decoration: underline;
+}

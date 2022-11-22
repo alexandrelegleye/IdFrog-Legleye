@@ -1,0 +1,36 @@
+@use '/src/assets/styles/vars';
+
+.navigationSideBar {
+  background-color: vars.$primary;
+  padding: 1rem 1.1rem;
+  min-width: 310px;
+
+  &-Top {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &-settings {
+    margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &-pseudo {
+      color: vars.$secondary;
+      font-size: vars.$gutter;
+    }
+
+    &-icons {
+      color: vars.$info;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navigationSideBar {
+    display: none;
+  }
+}

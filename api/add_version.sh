@@ -1,0 +1,1 @@
+sqitch add 1.init -n "script d'initialisation de la bdd"

@@ -1,0 +1,13 @@
+@use '../../assets/styles/vars';
+
+.head {
+  padding: vars.$gutter vars.$gutter * 2 0 vars.$gutter * 2;
+  &-logo {
+    width: 100%;
+    max-width: '500px';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
