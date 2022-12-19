@@ -17,7 +17,7 @@ const app = express();
 app.use('/data/ProjectsImages', express.static('./data/ProjectsImages'));
 
 app.use(cors({
-  "origin": "*",
+  "origin": "https://idfrog-front.onrender.com",
   "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
   "preflightContinue": false,
   "optionsSuccessStatus": 204
