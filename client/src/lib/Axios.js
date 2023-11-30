@@ -23,7 +23,7 @@ export const sendGetRequest = async (url, params = {}, headers = {}) => {
   }
   catch (error){
     //console.log(error);
-    return (error.response)
+    throw new Error (error.response)
   } 
 };
 

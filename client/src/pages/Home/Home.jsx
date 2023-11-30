@@ -32,7 +32,7 @@ function Home() {
       const FetchData = async () => {
         try {
           const response = await getProjectsList();
-          //console.log(response.data);
+          console.log('data reçues');
           setResult(response.data);
         } catch (error) {
           console.log(error);

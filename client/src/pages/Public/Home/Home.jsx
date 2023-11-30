@@ -23,9 +23,8 @@ function Home() {
     try {
       setIsLoading(true)
       const response = await getProjectsList();
-      //console.log(response.data);
       setResult(response.data);
-      // TODO redirect vers 404 si status 404
+      // TODO redirect vers 404 si status 404    
     } catch (error) {
       console.log(error);
     }
@@ -40,13 +39,13 @@ function Home() {
     <>
       <Head />
       <Box className="allCards">
-        {result && 
-        <ProjectCardList result={result}
-          cardPerPages={3}
-          isLoading={isLoading}
-        />
+        {result &&
+          <ProjectCardList result={result}
+            cardPerPages={3}
+            isLoading={isLoading}
+          />
         }
-        
+
         <Container
           component="section"
           maxWidth="lg"
@@ -55,7 +54,7 @@ function Home() {
             justifyContent: "center",
           }}
         >
-        </Container> 
+        </Container>
       </Box>
       <TopFooter />
     </>
