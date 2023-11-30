@@ -6,7 +6,7 @@ Ce projet a été réalisé dans le cadre de ma fin de formation avec l'école O
 - Paul Greau https://github.com/Paul-Greau
 - Ramses Hillah https://github.com/HillahRamses
 
-Le front et le back sont déployés sur render à l'adresse suivante : https://idfrog-front.onrender.com/
+Le front et le back sont déployés sur render à l'adresse suivante : https://idfrog.alexandre-legleye.com/
 
 La Base de données est hébergée sur Supabase.
 
